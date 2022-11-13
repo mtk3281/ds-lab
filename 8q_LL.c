@@ -17,7 +17,7 @@ void enqueue()
     printf("\n enter the element to be inserted : ");
     scanf("%d",&ele);
     temp->data=ele;
-    if (r==NULL || f==NULL)
+    if (r==NULL && f==NULL)
     {
         f=temp;
         r=temp;
